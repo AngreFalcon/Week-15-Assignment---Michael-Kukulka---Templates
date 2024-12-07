@@ -26,5 +26,5 @@ T half(T num) {
 }
 
 int half(int num) {
-	return round(static_cast<double>(num) / 2);
+	return static_cast<int>(round(static_cast<double>(num) / 2));
 }
